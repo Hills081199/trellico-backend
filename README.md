@@ -22,12 +22,3 @@ This is the **backend** part of the project, built using NestJS and PostgreSQL.
 - Add, edit, delete cards within lists
 - RESTful API for frontend to consume
 
-## 📦 Getting Started
-
-```bash
-git clone https://github.com/your-username/trellico-backend
-cd trellico-backend
-npm install
-npx prisma generate
-npx prisma migrate dev --name init
-npm run start:dev
